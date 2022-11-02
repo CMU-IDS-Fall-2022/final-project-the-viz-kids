@@ -2,7 +2,7 @@
 
 * **Online URL**: https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids
 * **Team members**:
-  * Contact person: nkhatwan@andre.cmu.edu
+  * Contact person: nkhatwan@andrew.cmu.edu
   * nbandewa@andrew.cmu.edu
   * jjna@andrew.cmu.edu
   * TODO@andrew.cmu.edu
