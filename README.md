@@ -1,9 +1,8 @@
 # CMU Interactive Data Science Final Project
 
-* **Online URL**: https://github.com/orgs/CMU-IDS-Fall-2022/teams/the-viz-kids
+* **Online URL**: https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids
 * **Team members**:
-  * Contact person: 
-  * TODO@andrew.cmu.edu
+  * Contact person: TODO@andrew.cmu.edu
   * nbandewa@andrew.cmu.edu
   * jjna@andrew.cmu.edu
   * TODO@andrew.cmu.edu
