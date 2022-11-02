@@ -25,7 +25,7 @@ In this regard, the motivation to develop a new Dashboard to show the distributi
 
 Question
 
-What are the trends in energy consumption among buildings in Seattle across five years? (2016-2020)
+What are the trends in energy consumption among buildings in Seattle across five years?
 How does the energy efficiency of buildings relate to the characteristics of buildings?
 What specific buildings in Seattle should be prioritized in terms of energy investment?
 
