@@ -7,10 +7,10 @@ Benchmarking Energy Consumption of Buildings in Seattle
 
 
 Team Members: 
-Aditi Kanaujia
-Jeffrey Na
-Nikita Khatwani
-Ninad Bandewar
+Aditi Kanaujia,
+Jeffrey Na,
+Nikita Khatwani,
+Ninad Bandewar,
 Pragnya Sridhar
 
 
