@@ -5,7 +5,7 @@
   * Contact person: nkhatwan@andrew.cmu.edu
   * nbandewa@andrew.cmu.edu
   * jjna@andrew.cmu.edu
-  * TODO@andrew.cmu.edu
+  * akanauji@andrew.cmu.edu
   * pragnyas@andrew.cmu.edu
 
 ## Work distribution
