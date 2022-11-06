@@ -44,11 +44,12 @@ The proposed dashboard will allow the user to analyze the energy data trends of 
 
 The question is addressed via the map of the city as the base. With reference to the sketch below, buildings are being color coded on the map based on their energy performance. This map allows the user to interactively filter the buildings through the different characteristics available in the benchmarking data sets. For example,  a user can filter to see the performance of buildings built between the years 1950 - 1980 and their location on the map. Since all the filters will be linked to one another, they can also see the range of other characteristics like area, energy star score, GHG emissions of these filtered buildings. The eneryg scale on the right also provides a reference to see where the selected building might stand on the scale and its reference to an ideal efficient building as per standards. 
 
-![1](https://user-images.githubusercontent.com/98651122/200192381-2884ac05-ed37-4df0-9611-c98e469097da.jpg)
+![1](https://user-images.githubusercontent.com/98651122/200193459-a9e8496c-3a51-4b7d-bafd-83e86ddd320e.jpg)
+
 
 ## Question 03 : What specific buildings in Seattle should be prioritized in terms of energy investment?
 
-### Sub-Question 02 : What is the energy comparison of the top 10 least efficient buildings within a specific program type in Seattle?
+### Sub-Question 01 : What is the energy comparison of the top 10 least efficient buildings within a specific program type in Seattle and what is their locations?
 
  it is important to compare buildings wihtin their program type to identify which buildings should be prioritized for retrofits/improvements since different program types have different energy standards requirements. A bar chart is chosen to answer this question where the user gets to decide which building type would they like to analyse. The chart plots the energy performance (EUI) of the top 10 least efficient buildings within that specific program against a bar of the most efficient energy performance expected by the standard. This helps put their performances in perspective of the goal that these buildings are needed to achieve. In addition , a map is linked to this graph to also show the location of these 10 buildings, incase of any insightful available learnings about the corelatoin between location and performance. 
 
