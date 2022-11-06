@@ -49,11 +49,12 @@ The question is addressed via the map of the city as the base. With reference to
 
 ## Question 03 : What specific buildings in Seattle should be prioritized in terms of energy investment?
 
-### Sub-Question 01 : What is the energy comparison of the top 10 least efficient buildings within a specific program type in Seattle and what is their locations?
+### Sub-Question 01.a : What is the energy comparison of the top 10 least efficient buildings within a specific program type in Seattle ?
 
  it is important to compare buildings wihtin their program type to identify which buildings should be prioritized for retrofits/improvements since different program types have different energy standards requirements. A bar chart is chosen to answer this question where the user gets to decide which building type would they like to analyse. The chart plots the energy performance (EUI) of the top 10 least efficient buildings within that specific program against a bar of the most efficient energy performance expected by the standard. This helps put their performances in perspective of the goal that these buildings are needed to achieve. In addition , a map is linked to this graph to also show the location of these 10 buildings, incase of any insightful available learnings about the corelatoin between location and performance. 
 
 ![2](https://user-images.githubusercontent.com/98651122/200192850-9fcdf41a-552d-4c2c-a108-21daaadf4883.jpg)
 
+### Sub-Question 01.b : What is the location of these 10 least efficient buildings in Seattle ?
 ![3](https://user-images.githubusercontent.com/98651122/200193261-a04eb7ec-5a57-4cfc-a821-19aade114ded.jpg)
 
