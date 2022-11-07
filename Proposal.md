@@ -63,12 +63,12 @@ This would help building associations analyse and compare their performance with
 The total energy sketch would help energy providers analyse the energy consumption of various neighborhoods. This would provide insight on which neighborhoods are developing rather rapidly and might need more infrastructure to support the increased need than the others.
 The average energy sketch would help the local governments compare their constituents to the others to implement more sustainable practices.
 
-![6](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-6.png)
+![6](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-7.png)
 
 #### Sub-Question 04: What is the trend in usage of electricity vs natural gas over the last 5 years? Is there any relationship?
 This would be particularly useful to the Government to understand how much natural gas they must be importing in subsequent years. Given that natural gas is limited, electricity is more widely used. Thus we expect to observe a decreasing trend in natural gas and an increasing trend in electricity. 
 
-![7](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-7.png)
+![7](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-6.png)
 
 ### Question 02 :  How does the energy efficiency of buildings relate to the characteristics of buildings?
 
