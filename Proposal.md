@@ -47,6 +47,23 @@ The proposed dashboard will allow the user to analyze the energy data trends of 
 Given that energy score rating is a good metric to help even lay people understand and rate the buildings energy usage, it is worth mentioning in our dashboard. However, 25% of missing value is quite a big number of missing values and thus poses a problem we cannot ignore. In order to compute the metric using the formula from above, we do not have the monthly data of average usage for the last 12 months available.We thus intend to approximate this value using a Machine Learning algorithm to cluster the similar buildings together based on various features such as type of building, square footage, age of the building etc. Once the buildings are clustered, the missing value can be filled as the average of the cluster or the average usgae of the nearest k buildings. It is important to note and specify that this value is an approximation and we will also indicate the same in the dashboard while representing these values.
 
 ## Sketches:
+### Question 01: What are the current trends in energy consumption of buildings in Seattle across five years?
+#### Sub-Question 01: What is the trend in energy consumption over the last 5 years for the chosen building types such as hospitals, hotels etc?
+This would potentially help us evaluate which building types have improved their energy efficiency. This will help electricity providers analyse which types of buildings need more energy, the government can identify the types of buildings that have improved their energy efficiency, thus allocating the resources to the ones laging behind on this front.
+
+
+#### Sub-Question 01: What is the trend in energy consumption over the last 5 years for the chosen buildings?
+This would help building associations analyse and compare their performance with their neighbours and thus implement more efficient practices. It would also help the government identify the buildings which have shown signifiacnt imporvement in their energy efficiency, thus granting them a small tax emption or reduced electricity prices.
+
+
+#### Sub-Question 02: What is the trend in total and average energy consumption over the last 5 years for chosen neighborhoods? 
+The total energy sketch would help energy providers analyse the energy consumption of various neighborhoods. This would provide insight on which neighborhoods are developing rather rapidly and might need more infrastructure to support the increased need than the others.
+The average energy sketch would help the local governments compare their constituents to the others to implement more sustainable practices. 
+
+#### Sub-Question 03: What is the trend in usage of electricity vs natural gas over the last 5 years? Is there any relationship?
+This would be particularly useful to the Government to understand how much natural gas they must be importing in subsequent years. Given that natural gas is limited, electricity is more widely used. Thus we expect to observe a decreasing trend in natural gas and an increasing trend in electricity. 
+
+
 ### Question 02 :  How does the energy efficiency of buildings relate to the characteristics of buildings?
 
 #### Sub-Question 01 : What is the location of buildings in Seattle based on their energy performance with respect to other characteristics of the building?
