@@ -56,14 +56,19 @@ This would potentially help us evaluate which building types have improved their
 #### Sub-Question 02: What is the trend in energy consumption over the last 5 years for the chosen buildings?
 This would help building associations analyse and compare their performance with their neighbours and thus implement more efficient practices. It would also help the government identify the buildings which have shown signifiacnt imporvement in their energy efficiency, thus granting them a small tax emption or reduced electricity prices.
 
+![5](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-5.png)
+
 
 #### Sub-Question 03: What is the trend in total and average energy consumption over the last 5 years for chosen neighborhoods? 
 The total energy sketch would help energy providers analyse the energy consumption of various neighborhoods. This would provide insight on which neighborhoods are developing rather rapidly and might need more infrastructure to support the increased need than the others.
-The average energy sketch would help the local governments compare their constituents to the others to implement more sustainable practices. 
+The average energy sketch would help the local governments compare their constituents to the others to implement more sustainable practices.
+
+![6](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-6.png)
 
 #### Sub-Question 04: What is the trend in usage of electricity vs natural gas over the last 5 years? Is there any relationship?
 This would be particularly useful to the Government to understand how much natural gas they must be importing in subsequent years. Given that natural gas is limited, electricity is more widely used. Thus we expect to observe a decreasing trend in natural gas and an increasing trend in electricity. 
 
+![7](https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-7.png)
 
 ### Question 02 :  How does the energy efficiency of buildings relate to the characteristics of buildings?
 
