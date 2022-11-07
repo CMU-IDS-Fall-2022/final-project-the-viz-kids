@@ -37,24 +37,33 @@ The proposed dashboard will allow the user to analyze the energy data trends of 
 
 
 # Sketches and Data Analysis
+## Data Analysis:
+(Ninad) - Where our dataset is from, what columns does it have and what it means
 
-## Question 02 :  How does the energy efficiency of buildings relate to the characteristics of buildings?
+(Jeffrey) - What is energy star and what information does it give, how is it computed
 
-### Sub-Question 01 : What is the location of buildings in Seattle based on their energy performance with respect to other characteristics of the building?
+(Jeffrey) - Comparing to our data - that table showing the different types of buildings and count of values
+
+Given that energy score rating is a good metric to help even lay people understand and rate the buildings energy usage, it is worth mentioning in our dashboard. However, 25% of missing value is quite a big number of missing values and thus poses a problem we cannot ignore. In order to compute the metric using the formula from above, we do not have the monthly data of average usage for the last 12 months available.We thus intend to approximate this value using a Machine Learning algorithm to cluster the similar buildings together based on various features such as type of building, square footage, age of the building etc. Once the buildings are clustered, the missing value can be filled as the average of the cluster or the average usgae of the nearest k buildings. It is important to note and specify that this value is an approximation and we will also indicate the same in the dashboard while representing these values.
+
+## Sketches:
+### Question 02 :  How does the energy efficiency of buildings relate to the characteristics of buildings?
+
+#### Sub-Question 01 : What is the location of buildings in Seattle based on their energy performance with respect to other characteristics of the building?
 
 The question is addressed via the map of the city as the base. With reference to the sketch below, buildings are being color coded on the map based on their energy performance. This map allows the user to interactively filter the buildings through the different characteristics available in the benchmarking data sets. For example,  a user can filter to see the performance of buildings built between the years 1950 - 1980 and their location on the map. Since all the filters will be linked to one another, they can also see the range of other characteristics like area, energy star score, GHG emissions of these filtered buildings. The eneryg scale on the right also provides a reference to see where the selected building might stand on the scale and its reference to an ideal efficient building as per standards. 
 
 ![1](https://user-images.githubusercontent.com/98651122/200193459-a9e8496c-3a51-4b7d-bafd-83e86ddd320e.jpg)
 
 
-## Question 03 : What specific buildings in Seattle should be prioritized in terms of energy investment?
+### Question 03 : What specific buildings in Seattle should be prioritized in terms of energy investment?
 
-### Sub-Question 01.a : What is the energy comparison of the top 10 least efficient buildings within a specific program type in Seattle ?
+#### Sub-Question 01.a : What is the energy comparison of the top 10 least efficient buildings within a specific program type in Seattle ?
 
  it is important to compare buildings wihtin their program type to identify which buildings should be prioritized for retrofits/improvements since different program types have different energy standards requirements. A bar chart is chosen to answer this question where the user gets to decide which building type would they like to analyse. The chart plots the energy performance (EUI) of the top 10 least efficient buildings within that specific program against a bar of the most efficient energy performance expected by the standard. This helps put their performances in perspective of the goal that these buildings are needed to achieve. In addition , a map is linked to this graph to also show the location of these 10 buildings, incase of any insightful available learnings about the corelatoin between location and performance. 
 
 ![2](https://user-images.githubusercontent.com/98651122/200192850-9fcdf41a-552d-4c2c-a108-21daaadf4883.jpg)
 
-### Sub-Question 01.b : What is the location of these 10 least efficient buildings in Seattle ?
+#### Sub-Question 01.b : What is the location of these 10 least efficient buildings in Seattle ?
 ![3](https://user-images.githubusercontent.com/98651122/200193261-a04eb7ec-5a57-4cfc-a821-19aade114ded.jpg)
 
