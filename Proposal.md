@@ -51,6 +51,7 @@ Given that energy score rating is a good metric to help even lay people understa
 #### Sub-Question 01: What is the trend in energy consumption over the last 5 years for the chosen building types such as hospitals, hotels etc?
 This would potentially help us evaluate which building types have improved their energy efficiency. This will help electricity providers analyse which types of buildings need more energy, the government can identify the types of buildings that have improved their energy efficiency, thus allocating the resources to the ones laging behind on this front.
 
+[!1][https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/main/image-4.png]
 
 #### Sub-Question 02: What is the trend in energy consumption over the last 5 years for the chosen buildings?
 This would help building associations analyse and compare their performance with their neighbours and thus implement more efficient practices. It would also help the government identify the buildings which have shown signifiacnt imporvement in their energy efficiency, thus granting them a small tax emption or reduced electricity prices.
