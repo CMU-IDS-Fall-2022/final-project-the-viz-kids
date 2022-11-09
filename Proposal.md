@@ -49,6 +49,7 @@ The dataset is a compilation of benchmarking datasets from the years of 2016 –
 5. Electrical, Steam and Natural Gas Consumption
 6. Weather Normalized Site and Source Energy Use Intensity (A metric to compare the buildings with either other similar typology of buildings in the city or the national set standard.  
 7. Validity and Compliance Status of the Data
+
 Although all the categories mentioned above might not necessarily inform the visualizations, they would help in data analysis and help in weeding out “bad data”. 
 
 ### What is energy star and what information does it give, how is it computed
