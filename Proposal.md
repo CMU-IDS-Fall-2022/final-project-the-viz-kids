@@ -38,9 +38,21 @@ The proposed dashboard will allow the user to analyze the energy data trends of 
 
 # Sketches and Data Analysis
 ## Data Analysis:
-(Ninad) - Where our dataset is from, what columns does it have and what it means
+### Where our dataset is from, what columns does it have and what it means
+
+Benchmarking means measuring a building's energy use and then comparing it to the average for similar buildings. It allows owners and occupants to understand their building's relative energy performance and helps identify opportunities to cut energy waste.
+The dataset is a compilation of benchmarking datasets from the years of 2016 – 2020 except for 2018 (which is not publicly available, and we are attempting to acquire it by getting in touch with the administration). The data represents the buildings of Seattle which are required to provide information as stated by the Benchmarking laws of Seattle. For this project, multiple columns in the dataset have been scrapped as they do not provide any relevance to the data analysis. The columns that remain provide an insight into the following aspects of the building:
+1. Name and Type of the Building
+2. Geographical Location of the Building
+3. Primary, Secondary and Tertiary Use of the Land and their respective Floor Areas
+4. EnergyStar Rating 
+5. Electrical, Steam and Natural Gas Consumption
+6. Weather Normalized Site and Source Energy Use Intensity (A metric to compare the buildings with either other similar typology of buildings in the city or the national set standard.  
+7. Validity and Compliance Status of the Data
+Although all the categories mentioned above might not necessarily inform the visualizations, they would help in data analysis and help in weeding out “bad data”. 
 
 ### What is energy star and what information does it give, how is it computed
+
 One of the most important columns in the dataset is Energy Star score, which allows users to quickly understand how the specific building is working. It uses 1-100, and a score of 50 represents median energy performance, while a score of 75 or higher indicates your building is even better than others. That is, the Energy Star score assesses how the building is performing as a whole based on actual, measured data. It is rated given its physical attributes, its operations, and how the people inside use it. To be specific, the input information includes its size, location, number of occupants, number of PCs, etc. Input details depend on the property type first, but there are five steps to get the score rating: 1) Enter building data, 2) Compute the actual source EUI, 3) Compute the predicted source EUI, 4) Compute the energy efficiency ratio, 5) Assign a core via a lookup table.
 
 However, our exploration of the 2020 dataset found that 1,002 building rows with missing Energy Star score values (~28% of total 3,628) were unfortunately included. From the captured table stated below, you could find the number of buildings by property type in the dataset with rated and missing values. It is said that the blue-colored types with missing values (~63% of total 1,002) would also be possibly rated since other buildings in the same type have been also rated, but we cannot be sure that non-colored and orange-colored rows could get rated. Because those are not included in the Energy Score(ES) list or the building type is null itself. 
