@@ -109,3 +109,47 @@ The question is addressed via the map of the city as the base. With reference to
 #### Sub-Question 01.b : What is the location of these 10 least efficient buildings in Seattle ?
 ![3](https://user-images.githubusercontent.com/98651122/200193261-a04eb7ec-5a57-4cfc-a821-19aade114ded.jpg)
 
+
+## Machine Learning
+#### **Motivation:**
+As stated, missing Energy Score Values pose a problem to the dashboard. Since this metric cannot be computed given the data available, Machine Learning approaches are used to estimate this value for missing cases.
+
+Taking a brute force approach of assigning a mean calculated by clustering similar building types yeilds an unnformative value (often 50) as even within a building type, the values range from [1,100]. Thus ML is essential in solving this problem.
+
+#### **Formulating the problem as an ML Problem:**
+The problem at hand can be seen as a regression problem since the Energy Star Score is a continuous value between 1 and 100. It can be seen a regression over the following features from our dataset. The following consitutues our feature set or X
+- Year built
+- Number of floors
+- Area of the Property
+- Type of Property
+- Source Energy Use Intensity (EUI)
+- GHG Emission
+
+Energy Star Score serves as our labels or Y.
+
+#### **Procedure:**
+Some features from the above list of X have missing values. These have been removed to help the model attain better accuracy.
+
+All the columns except the Type of Property are numeric in nature and can be used directly. In order to encode the relationship between two buildings types in the representation fed to the model, we obtain their BERT Encoding. For example, 'Multifamily Housing' and 'Residence Hall' are more similar than  'Multifamily Housing' and 'Hospital'. Thus we cleaned the Property Type column and encoded it using BERT.
+
+Finally, we concatenate the columns for X along with the BERT encoding and feed it to our model.
+
+70-30 train-test split has been used. Subsequently, cross validation is done on the 70% or train dataset to verify results. Finally the results are reported on the test dataset.
+
+The models we experimented with are
+1. K Nearest Neighbors
+1. K Means
+1. Linear Regression
+1. Support Vector Regressor
+1. Decision Tree
+1. Random Forest
+1. Ridge Regressor
+1. Multi Layer Perceptron
+
+Out of which, Random Forests attain the best performance of 67.1% average accuracy on 5 fold cross validation and 68.7% on test set so far.
+
+
+#### Future Work:
+- Explore different flavour of BERT for the encoding
+- Try dimensionality reduction - PCA or SVD
+- Feature Engineering to modify year build to age of the building etc
