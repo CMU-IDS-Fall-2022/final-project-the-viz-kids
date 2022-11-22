@@ -39,6 +39,7 @@ The proposed dashboard will allow the user to analyze the energy data trends of 
 # Sketches and Data Analysis
 
 Link To Dataset (Post Cleaning): https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/blob/3125bec607c98efe5b7bf352f019f78aa130541b/Combined.csv
+Link To Interaction Flow: https://miro.com/app/board/uXjVPAqsWzA=/?share_link_id=853957313766
 
 ## Data Analysis:
 ### Where our dataset is from, what columns does it have and what it means
