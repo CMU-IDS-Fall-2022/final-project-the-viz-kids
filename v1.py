@@ -1,9 +1,9 @@
 #############################################################################
 # This project is ///
 # Course: Interactive Data Science(05839-A)
-# Coded By: Jeffrey Na, Ninad Bandewar
-# AndrewID: jjna, nbandewa
-# Date: Oct 09, 2022
+# Coded By: Aditi Kanaujia, Jeffrey Na, Nikita Khatwani, Ninad Bandewar, Pragnya Sridhar
+# AndrewID: akanauji, jjna, nkhatwan, nbandewa, pragnyas
+# Date: Nov 22, 2022
 # Thanks to Prof. John Stamper, Prof. Adam Perer & TAs for there assistance
 
 
