@@ -44,7 +44,7 @@ Out of which, Random Forests attain the best performance of 67.1% average accura
 - Try dimensionality reduction - PCA or SVD
 - Feature Engineering to modify year build to age of the building etc
 
-#Previously Submitted Part of the Proposal
+# Previously Submitted Part of the Proposal
 
 # Final Project Proposal
 
