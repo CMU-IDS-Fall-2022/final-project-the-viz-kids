@@ -1,5 +1,6 @@
 # CMU Interactive Data Science Final Project
 
+* **Streamlit App URL**: https://cmu-ids-fall-2022-final-project-th-codereview-submission-iy0ddp.streamlit.app/
 * **Online URL**: https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids
 * **Team members**:
   * Contact person: nkhatwan@andrew.cmu.edu
