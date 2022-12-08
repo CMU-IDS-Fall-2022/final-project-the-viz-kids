@@ -13,19 +13,15 @@
 ## Work distribution
 
 * **Nikita Khatwani**:
-  * Contact person: nkhatwan@andrew.cmu.edu
-  * nbandewa@andrew.cmu.edu
-  * jjna@andrew.cmu.edu
-  * akanauji@andrew.cmu.edu
-  * pragnyas@andrew.cmu.edu
+  * //
 * **Ninad Bandewar**:
-  * 
+  * //
 * **Jonghwa Na**:
-  * 
+  * //
 * **Aditi Kanaujia**:
-  * 
+  * //
 * **Pragnya Sridhar**:
-  * 
+  * //
 
 ## Deliverables
 
