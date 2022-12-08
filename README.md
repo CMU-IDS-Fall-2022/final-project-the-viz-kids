@@ -13,10 +13,15 @@
 ## Work distribution
 
 * **Nikita Khatwani**:
+  * 
 * **Ninad Bandewar**:
+  * 
 * **Jonghwa Na**:
+  * 
 * **Aditi Kanaujia**:
+  * 
 * **Pragnya Sridhar**:
+  * 
 
 ## Deliverables
 
