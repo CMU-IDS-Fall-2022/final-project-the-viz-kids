@@ -404,7 +404,7 @@ if st.button("Analyze Your Selected Building"):
     
     ################# CHATPER 1
     
-    st.subheader("1. HOW EFFICIENT IS YOUR BUILDING?")
+    st.subheader("1. HOW MUCH EFFICIENT IS YOUR BUILDING?")
 
     ################# CHATPER 1-1
 
