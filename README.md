@@ -15,15 +15,18 @@
 ## Work distribution
 
 * **Nikita Khatwani**:
-  * //
+  * Chapter 3
 * **Ninad Bandewar**:
-  * //
+  * Chapter 1
 * **Jonghwa Na**:
-  * //
+  * Chapter 2, Miro Board (Interaction Flow)
 * **Aditi Kanaujia**:
-  * //
+  * Machine Learning, Data Cleaning and Chapter 1
 * **Pragnya Sridhar**:
-  * //
+  * Machine Learning, Data Cleaning and Chapter 1
+  
+  We worked on our chapters independently and collaborated when needed. We met once every week to take account of the progress.  
+  Towards the end of the project, we worked as a group to debug the script where needed.
 
 ## Deliverables
 
