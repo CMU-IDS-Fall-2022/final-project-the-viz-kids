@@ -1,5 +1,4 @@
 #############################################################################
-# This project is ///
 # Course: Interactive Data Science(05839-A)
 # Coded By: Aditi Kanaujia, Jeffrey Na, Nikita Khatwani, Ninad Bandewar, Pragnya Sridhar
 # AndrewID: akanauji, jjna, nkhatwan, nbandewa, pragnyas
