@@ -2,7 +2,7 @@
 
 **Project URL**: https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids
 
-**Video URL**: TODO
+**Video URL**: https://drive.google.com/file/d/1__EateuDJxnN5tKiUlrXCG1uegbMyDP9/view?usp=sharing
 
 
 ## Introduction
