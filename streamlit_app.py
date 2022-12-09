@@ -65,7 +65,7 @@ st.header("Introduction")
 st.write(
     "Buildings contribute to 38% of global emissions as per the UN \
     Environmental Global Status Report 2020. Hence, it is crucial for us to \
-    make efforts to reduce energy consumption. Each building’s energy usage is \
+    make efforts to reduce energy consumption in buildings. Each building’s energy usage is \
     mentioned in its monthly bill. However, it is quite challenging to assess \
     if this amount would be higher/lower than others or the set average \
     (threshold) consumption value for say, the 2050 goal. This can be achieved \
