@@ -17,7 +17,7 @@ import pandas as pd
 import altair as alt
 import numpy as np
 import folium as fo
-from streamlit_folium import folium_static, st_folium
+from streamlit_folium import st_folium
 from PIL import Image
 #from vega_datasets import data
 
