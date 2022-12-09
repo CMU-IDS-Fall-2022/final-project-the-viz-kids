@@ -12,6 +12,8 @@
   * akanauji@andrew.cmu.edu
   * pragnyas@andrew.cmu.edu
 
+* Please note that you should run this locally to grade since we are unable to resolve the deploy issue.
+
 ## Work distribution
 
 * **Nikita Khatwani**:
@@ -31,7 +33,7 @@
 ## Deliverables
 
 * **Link to paper**: https://raw.githubusercontent.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/main/Report.md
-* **Link to video**: 
+* **Link to video**: https://drive.google.com/file/d/1__EateuDJxnN5tKiUlrXCG1uegbMyDP9/view
 
 ## Abstract
 Buildings contribute to 38% of global emissions as per the UN Environmental Global Status Report 2020. Hence, it is crucial for us to make efforts to reduce energy consumption. Each building’s energy usage is mentioned in its monthly bill. However, it is quite challenging to assess if this amount would be higher/lower than others or the set average (threshold) consumption value for say, the 2050 goal. This can be achieved using the benchmark data. To be specific, Seattle has State Policies to require all public, commercial, and multifamily buildings to complete the benchmarking report of energy consumption in the building. This helps various policy makers, consultants and designers take informed decisions about building retrofits and it assists with setting standards for new buildings as well.
