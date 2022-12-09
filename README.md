@@ -17,7 +17,7 @@
 * **Nikita Khatwani**:
   * Chapter 3
 * **Ninad Bandewar**:
-  * Chapter 1
+  * Chapter 1, Initial Data Cleaning
 * **Jonghwa Na**:
   * Chapter 2, Miro Board (Interaction Flow)
 * **Aditi Kanaujia**:
