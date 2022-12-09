@@ -53,7 +53,7 @@ st.markdown("""
 #############################################################################
 
 
-st.title("Seattle building energy analysis")
+st.title("Energy map exploration of buildings in the city of Seattle")
 
 
 urllib.request.urlretrieve('https://raw.githubusercontent.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/main/769689.jpg', 'seattle.jpeg')
@@ -148,7 +148,7 @@ with filterCol:
 
     
     # Data Year Filter
-    st.markdown('<p class = "smallSubHeader" > Select Year. </p>'
+    st.markdown('<p class = "smallSubHeader" > Select the Year. </p>'
                     , unsafe_allow_html = True)
     # Get Unique Years and a descending sort
     years = np.sort(dfMap["DataYear"].unique())[::-1]
@@ -165,7 +165,7 @@ with filterCol:
         maxEUI = math.ceil(np.sort(dfMap["SiteEUIWN(kBtu/sf)"])[::-1][0])
         minEUI = math.floor(np.sort(dfMap["SiteEUIWN(kBtu/sf)"])[0])
 
-        st.markdown('<p class = "smallSubHeader" > Filter With Energy Use Intensity (kBTU/sq.ft.). </p>'
+        st.markdown('<p class = "smallSubHeader" > Filter with Energy Use Intensity (kBTU/sq.ft.). </p>'
                     , unsafe_allow_html = True)
         EUIRange = st.slider("Energy Use Intensity", label_visibility = "collapsed", 
                                 min_value = minEUI, max_value = maxEUI, 
@@ -180,7 +180,7 @@ with filterCol:
         maxEnergyScore = math.ceil(np.sort(dfMap["ENERGYSTARScore"])[::-1][0])
         minEnergyScore = math.floor(np.sort(dfMap["ENERGYSTARScore"])[0])
 
-        st.markdown('<p class = "smallSubHeader" > Filter With Energy Star Score. </p>'
+        st.markdown('<p class = "smallSubHeader" > Filter with Energy Star Score. </p>'
                     , unsafe_allow_html = True)
         energyScoreRange = st.slider("Energy Star Score", label_visibility = "collapsed", 
                                 min_value = minEnergyScore, max_value = minEnergyScore, 
@@ -193,7 +193,7 @@ with filterCol:
 
 
     # ZipCode Filter
-    st.markdown('<p class = "smallSubHeader" > Filter With Zipcodes. </p>'
+    st.markdown('<p class = "smallSubHeader" > Filter with Zipcodes. </p>'
                     , unsafe_allow_html = True)
     zipcodes = np.sort(dfMap["ZipCode"].unique())
     zipcodeSelect = st.multiselect("Zipcode", label_visibility = "collapsed", 
@@ -206,7 +206,7 @@ with filterCol:
 
 
     # Area Filter    
-    st.markdown('<p class = "smallSubHeader" > Filter With Area. </p>'
+    st.markdown('<p class = "smallSubHeader" > Filter with Gross Floor Area. </p>'
                     , unsafe_allow_html = True)
     
     if (len(dfMap) == 0):
@@ -381,7 +381,7 @@ df["Address"] = df["Address"].str.upper()
 df["SiteEUIWN(kBtu/sf)"] = df["SiteEUIWN(kBtu/sf)"].round(1)
 df_result_search = pd.DataFrame()
 
-if st.button("Analyze my Selected Building"):
+if st.button("Analyze Your Selected Building"):
     df_result_search = df[df["OSEBuildingID"] == df_point.iloc[0]["OSEBuildingID"]]
             
 
@@ -410,7 +410,7 @@ if st.button("Analyze my Selected Building"):
 
     st.write("**1-1. CITY LEVEL EFFICIENCY**")
     st.write("Let's compare your building with the average of the buildings in the same neighborhood in the city of Seattle.")
-    st.write("**1) EUI: Your Building vs. {Type} in the City of Seattle**".format(Type = TypeInput))
+    st.write("**1) EUI: Your Building vs. {Type} in the city of Seattle**".format(Type = TypeInput))
     
     #1) EUI trend_selected ######################################
 
@@ -454,7 +454,7 @@ if st.button("Analyze my Selected Building"):
     
     #4) ES trend_selected ######################################
 
-    st.write("**2) ENERGYSTAR Score: Your Building vs. {Type} in the City of Seattle**".format(Type = TypeInput))
+    st.write("**2) Energy Star score: Your Building vs. {Type} in the city of Seattle**".format(Type = TypeInput))
     chart2_year = df_result_search["DataYear"]
     chart2_es = df_result_search["ENERGYSTARScore"]
     chart2_data = pd.concat([chart2_year, chart2_es], axis=1)
@@ -496,7 +496,7 @@ if st.button("Analyze my Selected Building"):
 
     st.write("**1-2. NEIGHBORHOOD LEVEL EFFICIENCY**")
     st.write("Let's compare your building with the average of the buildings in the same neighborhood in the city of Seattle.")
-    st.write("**1) EUI: Your Building vs. {ZIP} neighborhood in the City of Seattle**".format(ZIP = int(ZipInput)))
+    st.write("**1) EUI: Your Building vs. {ZIP} neighborhood in the city of Seattle**".format(ZIP = int(ZipInput)))
     
     #1) EUI trend_selected ######################################
 
@@ -537,7 +537,7 @@ if st.button("Analyze my Selected Building"):
 
     #4) ES trend_selected ######################################
 
-    st.write("**2) ENERGYSTAR Score: Your Building vs. {ZIP} neighborhood in the City of Seattle**".format(ZIP = int(ZipInput)))
+    st.write("**2) Energy Star score: Your Building vs. {ZIP} neighborhood in the city of Seattle**".format(ZIP = int(ZipInput)))
     chart4_data = pd.concat([chart2_year, chart2_es], axis=1)
     chart4_data["Type"] = "YOUR BUILDING"        
             
@@ -637,7 +637,7 @@ if st.button("Analyze my Selected Building"):
         bar = st.altair_chart(chart5_plot, use_container_width=True)        
 
     
-    st.write("**2) ENERGYSTAR Score: Your Efficiency and Energy sources**")
+    st.write("**2) Energy Star Score: Your Efficiency and Energy sources**")
     
     #3) ES Score + Energe Source trend_chart ######################################
 
@@ -668,12 +668,12 @@ if st.button("Analyze my Selected Building"):
         
         bar = st.altair_chart(chart5_plot, use_container_width=True)
 
-    ################# CHATPER 2
+    ################# CHAPTER 2
     
 
     df_result_search = df[df["OSEBuildingID"] == df_point.iloc[0]["OSEBuildingID"]]
 
-    st.subheader("2.Which characteristics of the building should be reviewed in terms of energy efficiency?")
+    st.subheader("2. WHICH CHARACTERISTICS OF YOUR BUILDING SHOULD BE REVIEWED IN TERMS OF ENERGY EFFICIENCY?")
 
     #pick property of selected building 
     df_selectedProperty =  df_result_search[df_result_search["DataYear"] == 2020]
@@ -685,7 +685,7 @@ if st.button("Analyze my Selected Building"):
     df["SiteEUIWN(kBtu/sf)"] = df["SiteEUIWN(kBtu/sf)"].fillna(0)
 
     selectedProperty = df_selectedProperty.iloc[0]["LargestPropertyUseType"]
-    st.write(f"2.a. Do {selectedProperty}s use more energy as compared to other program types?")     
+    st.write(f"2-1. Do {selectedProperty}s use more energy as compared to other program types?")     
 
     #new data frame for order of programs as per EUI
     def getTop10Inclusive(colName, df, dfSelectedPoint):
@@ -734,7 +734,7 @@ if st.button("Analyze my Selected Building"):
     #pick 2020
     df1 = df[(df['DataYear'] == 2020) & (df['LargestPropertyUseType'] == selectedProperty)]
 
-    st.write("2.b. During 2020, how does the Zip Code of my building compare with the best performing Zip Codes in Seattle?")
+    st.write("2-2. During 2020, how does the neighborhood of your building compare with the best performing neighborhood in the city of Seattle?")
     filtered = "ZipCode"
     dfChart = getTop10Inclusive(filtered, df1, df_selectedProperty)
 
@@ -754,7 +754,7 @@ if st.button("Analyze my Selected Building"):
     )
     st.altair_chart(hist1, use_container_width=True)
 
-    st.write("2.c. During 2020, how do the buildings built during this year compare with the buildings built in other years?")
+    st.write("2-3. During 2020, how do the buildings built in this year compare with the buildings built in other years?")
     filtered = "YearBuilt"
     dfChart = getTop10Inclusive(filtered, df1, df_selectedProperty)
 
@@ -774,7 +774,7 @@ if st.button("Analyze my Selected Building"):
     )
     st.altair_chart(hist1, use_container_width=True)
 
-    st.write("2.d. During 2020, how do buildings with similar area compare with the other buildings with different areas in Seattle?")
+    st.write("2-4. During 2020, how do buildings with similar gross floor area compare with the other buildings with different size in the city of Seattle?")
     filtered = "PropertyGFABuilding(s)"
     dfChart = getTop10Inclusive(filtered, df1, df_selectedProperty)
 
@@ -794,7 +794,7 @@ if st.button("Analyze my Selected Building"):
     )
     st.altair_chart(hist1, use_container_width=True)
 
-    st.write("2.e. During 2020, how do buildings with same floors as my building compare with the other buildings with different number of floors?")
+    st.write("2-5. During 2020, how do buildings with same floors as my building compare with the other buildings with different number of floors?")
     filtered = "NumberofFloors"
     dfChart = getTop10Inclusive(filtered, df1, df_selectedProperty)
 
@@ -814,7 +814,7 @@ if st.button("Analyze my Selected Building"):
     )
     st.altair_chart(hist1, use_container_width=True)
 
-    st.write("2.f. During 2020, how do buildings with similar electricity consumption compare other buildings in Seattle with varying consumption?")
+    st.write("2-6. During 2020, how do buildings with similar electricity consumption compare other buildings in the city of Seattle with varying consumption?")
     filtered = "Electricity(kBtu)"
     dfChart = getTop10Inclusive(filtered, df1, df_selectedProperty)
 
