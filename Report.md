@@ -19,13 +19,13 @@ In this regard, the motivation to develop a new Dashboard to show the distributi
 Where our dataset is from, what columns does it have and what it means
 Benchmarking means measuring a building's energy use and then comparing it to the average for similar buildings. It allows owners and occupants to understand their building's relative energy performance and helps identify opportunities to cut energy waste. The dataset is a compilation of benchmarking datasets from the years of 2016 – 2020 except for 2018 (which is not publicly available, and we are attempting to acquire it by getting in touch with the administration). The data represents the buildings of Seattle which are required to provide information as stated by the Benchmarking laws of Seattle. For this project, multiple columns in the dataset have been scrapped as they do not provide any relevance to the data analysis. The columns that remain provide an insight into the following aspects of the building:
 
-Name and Type of the Building
-Geographical Location of the Building
-Primary, Secondary and Tertiary Use of the Land and their respective Floor Areas
-EnergyStar Rating
-Electrical, Steam and Natural Gas Consumption
-Weather Normalized Site and Source Energy Use Intensity (A metric to compare the buildings with either other similar typology of buildings in the city or the national set standard.
-Validity and Compliance Status of the Data
+* Name and Type of the Building
+* Geographical Location of the Building
+* Primary, Secondary and Tertiary Use of the Land and their respective Floor Areas
+* EnergyStar Rating
+* Electrical, Steam and Natural Gas Consumption
+* Weather Normalized Site and Source Energy Use Intensity (A metric to compare the buildings with either other similar typology of buildings in the city or the national set standard.
+* Validity and Compliance Status of the Data
 
 Although all the categories mentioned above might not necessarily inform the visualizations, they would help in data analysis and help in weeding out “bad data”.
 
