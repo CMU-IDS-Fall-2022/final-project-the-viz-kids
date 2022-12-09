@@ -2,7 +2,7 @@
 
 ## Title: Energy map exploration of buildings in the city of Seattle
 
-![summary image.PNG](https://raw.githubusercontent.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/a0d464798ceb3da59e7f3b237298222279dcd03f/summary%20image.PNG)
+![SummaryImage.PNG](https://raw.githubusercontent.com/CMU-IDS-Fall-2022/final-project-the-viz-kids/main/SummaryImage.PNG)
 
 * **Online URL**: https://github.com/CMU-IDS-Fall-2022/final-project-the-viz-kids
 * **Team members**:
