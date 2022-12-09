@@ -104,7 +104,7 @@ To build an interaction flow based on the dataset we have, there were some steps
 While we experimented with 9 models, the ones that gave us considerable results were Decision Trees, Random Forest Regressor and Extra Trees Regressor - 
 
 | Model |Mean Train Scores|
----------------------
+|-------|-----------------|
 | Decision Trees | 0.452772194 |
 | Random Forest Regressor | 0.718953426 |
 | Extra Trees Regressor | 0.781048178 |
